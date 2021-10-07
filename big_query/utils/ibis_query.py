@@ -2,7 +2,7 @@ from utils.bigquery_config import bq_config
 import ibis
 import ibis_bigquery
 
-client, project_id, dataset_id, table_name, table_id = bq_config()
+_, project_id, dataset_id, table_name, table_id = bq_config()
 
 # ----- IBIS BigQuery Connection ------
 def ibis_config():
