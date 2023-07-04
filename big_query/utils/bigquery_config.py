@@ -1,4 +1,5 @@
 from google.cloud import bigquery
+from google.api_core.exceptions import NotFound, BadRequest
 
 def bq_config():
     """
